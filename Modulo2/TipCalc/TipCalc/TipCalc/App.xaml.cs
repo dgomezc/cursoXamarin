@@ -12,8 +12,7 @@ namespace TipCalc
         public App()
         {
             InitializeComponent();
-
-            MainPage = new TipCalc.MainPage();
+            MainPage = new NavigationPage(new Views.TipCalcView());
         }
 
         protected override void OnStart()
