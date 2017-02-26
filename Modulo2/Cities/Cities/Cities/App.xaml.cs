@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cities.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,7 @@ namespace Cities
         public App()
         {
             InitializeComponent();
-
-            MainPage = new Cities.MainPage();
+            MainPage = new NavigationPage(new CitiesView());
         }
 
         protected override void OnStart()
