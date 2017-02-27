@@ -2,8 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Cities.Views.CitiesView"
-             Title="Cities List">
-    <ListView ItemsSource="{Binding Cities}">
+             Title="{Binding Title}">
+    <ContentPage.Content>
+
+    <ListView ItemsSource="{Binding Cities}" SelectedItem="{Binding SelectedCity}">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ImageCell 
@@ -13,4 +15,6 @@
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
+
+    </ContentPage.Content>
 </ContentPage>

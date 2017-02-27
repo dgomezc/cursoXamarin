@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cities.Views.CityView"
+             Title="{Binding Name}">
+    <ContentPage.Content>
+        <ScrollView>
+        <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="10" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="10" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Image Source="{Binding Image}" />
+                <Label Text="{Binding Name}" Font="16" FontAttributes="Bold" Grid.Row="2"  />
+                <Label Text="{Binding Detail}" Grid.Row="4"  />
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

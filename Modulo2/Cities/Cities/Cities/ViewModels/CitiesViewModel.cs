@@ -1,4 +1,5 @@
 ﻿using Cities.Resources;
+using Cities.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -69,6 +70,21 @@ namespace Cities.ViewModels
                     Detail = CitiesResource.SevillaDetalle,
                     Image = ImageSource.FromResource("Cities.Images.Cities.Sevilla.png")
                 });
+        }
+
+        public string Title { get { return "Listado de Ciudades"; } }
+
+        public CityViewModel SelectedCity
+        {
+            get
+            {
+                return null;
+            }
+            set
+            {
+                if(value != null)
+                    Application.Current.MainPage.Navigation.PushAsync (new CityView(value));
+            }
         }
     }
 }
