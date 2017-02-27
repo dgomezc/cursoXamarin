@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NuevaYorkDetalle" xml:space="preserve">
+    <value>Nueva York (en inglés: New York City) es la ciudad más poblada del estado homónimo y de los Estados Unidos de América, y la tercera mayor concentración urbana del continente americano, después de Sao Paulo (Brasil) y la Ciudad de México. La ciudad de Nueva York está entre las aglomeraciones urbanas más grandes y más pobladas del mundo.\n\nDesde finales del siglo XIX es uno de los principales centros de comercio y finanzas del mundo. Nueva York está considerada como ciudad global, dadas sus influencias a nivel mundial en los medios de comunicación, en la política, en la educación, en el entretenimiento, las artes y la moda. La influencia artística y cultural de la ciudad es de las más fuertes del mundo. En esta ciudad se encuentra la sede central de la Organización de las Naciones Unidas, lo que también la convierte en un importante punto de las relaciones internacionales. La enorme relevancia de la ciudad a todos los niveles la convierte, juntamente con Londres, Tokio y París, en una de las ciudades más destacadas e influyentes del planeta.</value>
+  </data>
+  <data name="ParisDetalle" xml:space="preserve">
+    <value>París es la capital de Francia y su ciudad más poblada. Capital de la región de Isla de Francia (o "Región Parisina"), es constituida en la única comuna unidepartamental del país. Está situada a ambos márgenes de un largo meandro del río Sena, en el centro de la Cuenca parisina, entre la confluencia del río Marne y el Sena, aguas arriba, y el Oise y el Sena, aguas abajo.\n\nLa ciudad de París, dentro de sus estrechos límites administrativos, tiene una población de 2 273 305 habitantes en 2015. Sin embargo, en el siglo XX, el área metropolitana de París se expandió más allá de los límites del municipio de París, y es hoy en día, con una población de 12 405 426 habitantes en 2013, la segunda área metropolitana del continente europeo (después de Londres) y la 28ª del mundo.</value>
+  </data>
+  <data name="RomaDetalle" xml:space="preserve">
+    <value>Roma es una ciudad y capital italiana, de 2 872 082 habitantes, capital de la Ciudad metropolitana de Roma Capital, de la región del Lacio y de Italia. Es el municipio más poblado de Italia y es la cuarta ciudad más poblada de la Unión Europea. Por antonomasia se la conoce como la Ciudad Eterna, l'Urbe (‘la Ciudad’) o Città Eterna.\n\nEn el transcurso de su historia, que abarca tres milenios, llegó a extender sus dominios sobre toda la cuenca del Mediterráneo y gran parte de Europa. Como capital del Imperio romano, se constituyó en una de las primeras grandes metrópolis de la humanidad, centro de una de las civilizaciones antiguas más importantes. Influyó en la sociedad, la cultura, la lengua, la literatura, el arte, la arquitectura, la filosofía, la religión, el derecho y la moral de los siglos sucesivos.</value>
+  </data>
+  <data name="SanFranciscoDetalle" xml:space="preserve">
+    <value>San Francisco, de forma oficial la Ciudad y Condado de San Francisco (en inglés: City and County of San Francisco), es una ciudad que ocupa la cuarta posición de ciudad más poblada del estado de California y la 13.ª de Estados Unidos, con una población de aproximadamente 837 442 habitantes en 2013. Es la única ciudad-condado consolidada de California, y al abarcar una superficie territorial de 121 km² cuenta con la segunda densidad de población más alta del país entre las ciudades que superan los 200 000 habitantes, tras Nueva York.7 Es el centro cultural, financiero y de transportes del Área de la Bahía de San Francisco, una aglomeración metropolitana con más de siete millones de habitantes. Se encuentra en el extremo norte de la península de San Francisco, con el océano Pacífico al oeste, la bahía homónima al este y la entrada de la bahía al norte, por lo que solamente está conectada con tierra firme por su extremo sur.\n\nLa ciudad de San Francisco fue fundada por colonos españoles en 1776. Construyeron un fuerte en lo que hoy es el Golden Gate y fundaron una misión llamada así en honor de Francisco de Asís. San Francisco perteneció al Virreinato de la Nueva España hasta la independencia de México en 1821. Tras la Intervención estadounidense en México entre 1845 y 1848, la ciudad y el resto de Alta California pasaron a ser territorio estadounidense. En 1848, la fiebre del oro de California impulsó a la ciudad a un período de rápido crecimiento, pasando de 1000 a 25 000 habitantes en un año,11 lo que convirtió a la ciudad en la más grande de la Costa oeste en aquella época. Después de haber sido devastada por el terremoto e incendio de 1906, San Francisco fue rápidamente reconstruida, siendo sede de la Exposición Internacional de Panamá y el Pacífico nueve años más tarde. Durante la Segunda Guerra Mundial, la ciudad fue el puerto de embarque de miles de soldados que partían hacia la Guerra del Pacífico. Tras la contienda, la confluencia de los militares que regresaban, la inmigración masiva, las actitudes liberales y otros factores dieron lugar al denominado Verano del Amor y los movimientos en favor de los derechos de los homosexuales, consolidando a San Francisco como un bastión liberal en los Estados Unidos.</value>
+  </data>
+  <data name="SeattleDetalle" xml:space="preserve">
+    <value>Seattle es la ciudad más grande del estado de Washington, en el noroeste de los Estados Unidos de América. El área metropolitana de la ciudad comprende Seattle-Tacoma-Bellevue, es la 15.ª más poblada del país y la mayor del Noroeste del Pacífico. La ciudad está situada entre el lago Washington y la bahía conocida como Puget Sound, junto al océano Pacífico. Se encuentra 155 kilómetros al sur de la frontera entre Estados Unidos y Canadá. Importante centro cultural, educativo y económico de la región, Seattle es sede del condado de King. En el Censo estimado de 2007, la ciudad contaba con una población municipal de 594.210 habitantes, por lo que es la vigésimo cuarta ciudad más poblada de los Estados Unidos, y un área metropolitana de 3.263.497 habitantes.\n\nEl área de Seattle lleva siendo habitada desde, al menos, 4.000 años,7 pero los primeros asentamientos europeos no llegaron hasta mediados del siglo XIX. Los primeros colonos blancos permanentes fueron Arthur A. Denny y aquellos que posteriormente fueron conocidos como el Partido de Denny, que llegaron el 13 de noviembre de 1851. Los primeros colonos de la zona fueron denominados "New York-Alki" y "Duwamps". En 1853, Doc Maynard sugirió que el asentamiento fuese renombrado a "Seattle", nombre del jefe de las dos tribus locales. Desde 1869 hasta 1982, Seattle fue conocida como "Queen City" (La ciudad reina, en español). El apodo actual y oficial de la ciudad es "Emerald City" (La ciudad esmeralda), como resultado de un concurso que tuvo lugar a comienzo de los años 1980, haciendo referencia con ello a los frondosos árboles de los alrededores. Seattle es también conocida como "Gateway to Alaska" (La puerta a Alaska), "Rain City" (La ciudad de la lluvia) y "Jet City", debido a la influencia de la multinacional Boeing, originaria y fundada en la ciudad.</value>
+  </data>
+  <data name="SevillaDetalle" xml:space="preserve">
+    <value>Sevilla es un municipio y una ciudad de España, capital de la provincia homónima y de la comunidad autónoma de Andalucía. Cuenta con 693 878 habitantes en 2015, por lo que es la ciudad más poblada de Andalucía, la cuarta de España después de Madrid, Barcelona y Valencia y la 32.ª de la Unión Europea. El municipio tiene una extensión de 140,8 km². El área metropolitana de Sevilla está compuesta por 46 municipios, incluye a una población de 1 533 230 habitantes (INE, 2014), y ocupa una superficie de 4900 km².\n\nSu casco antiguo es el más extenso de España y uno de los tres más grandes de toda Europa junto a los de Venecia y Génova, con 3,94 kilómetros cuadrados, y su casco histórico uno de los más grandes de España (nótese la diferencia entre casco antiguo, que solo incluye la zona histórica anterior a la Revolución Industrial, y casco histórico, que abarca estadios posteriores). Su patrimonio histórico y monumental y sus diversos espacios escénicos y culturales la constituyen en ciudad receptora de turismo nacional e internacional, en efecto se trata de la tercera capital más visitada de España, tras Barcelona y Madrid. Entre sus monumentos más representativos se encuentran la catedral (que incluye la Giralda), el Alcázar, el Archivo de Indias y la Torre del Oro, de los que los tres primeros han sido declarados Patrimonio de la Humanidad por la Unesco de forma conjunta en 1987.</value>
+    <comment>S</comment>
+  </data>
+</root>

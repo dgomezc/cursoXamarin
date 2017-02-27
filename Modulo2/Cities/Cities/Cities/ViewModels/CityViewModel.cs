@@ -1,8 +1,10 @@
-﻿namespace Cities.ViewModels
+﻿using Xamarin.Forms;
+
+namespace Cities.ViewModels
 {
     public class CityViewModel
     {
-        public string Image { get; set; }
+        public ImageSource Image { get; set; }
 
         public string Name { get; set; }
 
